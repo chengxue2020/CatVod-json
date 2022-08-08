@@ -1,6 +1,6 @@
 # 建新接口
 
-https://kvymin.github.io/CatVod/maoys.json
+https://raw.githubusercontent.com/chengxue2020/Kvymin-json/main/maoys.json
 
 
 # 导入存储库

@@ -19,16 +19,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key":"T4爬虫",
-      "name":"T4爬虫",
-      "type":4,
-      "api":"https://t4.secan.icu/vod",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0
-   }
+    }
   ],
   "lives": [
     {

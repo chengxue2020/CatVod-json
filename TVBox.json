@@ -1,6 +1,4 @@
 {
-   //"spider": "https://Kvymin.github.io/CatVod/jar/Hsck.jar;md5;95f1754708eeaf127d93fea25dcd120a",
-  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;d63fe3db21b48e04884c2d5303907bd1",
   "sites": [
     {
       "key": "csp_Xpath_lezhu",
@@ -13,6 +11,16 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMac/lezhutv.json"
     },
     {
+      "key":"csp_xpath_hyingku",
+      "name":"🤗嗨影库(XP)",
+      "type":3,
+      "api":"csp_XPath",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext": "https://kvymin.github.io/CatVod/Xpath/hyingku.json"
+    }, 
+    {
       "key": "csp_Xpath_bttwoo",
       "name": "2BT〔XPM〕",
       "type": 3,
@@ -23,6 +31,16 @@
       "ext": "http://kvymin.github.io/CatVod/Xpath/bttwoo.json"
     },
     {
+      "key":"云播看看",
+      "name":"🌨云播看看",
+      "type":3,
+      "api":"csp_XPath",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"http://kvymin.github.io/CatVod/Xpath/云播看看.json"
+    },
+    {
       "key": "bdys",
       "name": "哔嘀〔磁力测试〕",
       "type": 3,
@@ -31,17 +49,47 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://kvymin.github.io/CatVod/XPbd/Bdys.json"
+    }, 
+    {
+      "key": "csp_xpath_cls",
+      "name": "🍭磁力搜索(XP)",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathFilter/cls.json"
+    }, 
+    {
+      "key": "csp_xpath_yinfans",
+      "name": "🌀音范丝(磁力链)",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/Xpath/yinfans.json"
     },
     {
-          "key": "csp_xpath_czspp",
-          "name": "厂长资源(XP)",
-          "type": 3,
-          "api": "csp_XPath",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 0,
-          "ext": "https://kvymin.github.io/CatVod/Xpath/czspp.json"
-     },
+      "key": "csp_xpath_UM",
+      "name": "UM影院(XPMF)",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/UM.json"
+    },
+    {
+      "key": "csp_xpath_czspp",
+      "name": "厂长资源(XP)",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/Xpath/czspp.json"
+    },
     {
       "key": "csp_xpath_saohuotv",
       "name": "骚火影视〔XPF〕",
@@ -52,7 +100,7 @@
       "filterable": 1,
       "ext": "https://kvymin.github.io/CatVod/Xpath/saohuotv.json"
     },
-   {
+    {
       "key": "csp_xpath_libv",
       "name": "Libvio〔XPF〕",
       "type": 3,
@@ -71,27 +119,37 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/cokemv.json"
-    }, 
+    },
     {
-          "key": "csp_xpath_Jumi",
-          "name": "剧迷TV(XPF)",
-          "type": 3,
-          "api": "csp_XPathMacFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/Jumi.json"
-     }, 
-     {
-          "key": "csp_xpath_lranc",
-          "name": "天天影视(XPF)",
-          "type": 3,
-          "api": "csp_XPathMacFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/lranc.json"
-     },
+      "key":"csp_xpath_蚂蚁影视",
+      "name":"🐜蚂蚁影视",
+      "type":3,
+      "api":"csp_XPathFilter",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":0,
+      "ext":"https://kvymin.github.io/CatVod/XPathFilter/mayi.json"
+    },
+    {
+      "key": "csp_xpath_348电影",
+      "name": "348电影(XPF)",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathFilter/348z.json"
+    },
+    {
+      "key": "csp_xpath_lranc",
+      "name": "天天影视(XPF)",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/lranc.json"
+    },
     {
       "key": "剧白白",
       "name": "剧白白〔XPF〕",
@@ -113,55 +171,65 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dadagui.json"
     },
     {
-          "key": "csp_xpath_xxys520",
-          "name": "小熊影视(XPF)",
-          "type": 3,
-          "api": "csp_XPathFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/xxys520.json"
-     }, 
+      "key": "csp_xpath_789kp",
+      "name": "789看片(XPMF)",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/789kp.json"
+    },
     {
-          "key": "csp_xpath_348z",
-          "name": "348电影(XPF)",
-          "type": 3,
-          "api": "csp_XPathFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/348z.json"
-     }, 
-     {
-          "key": "csp_xpath_meiju56",
-          "name": "美剧网(XPF)",
-          "type": 3,
-          "api": "csp_XPathFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/meiju562.json"
-     }, 
-     {
-          "key": "csp_xpath_Gimy",
-          "name": "GIMY影视(XPF)",
-          "type": 3,
-          "api": "csp_XPathMacFilter",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/Gimy.json"
-     }, 
+      "key": "csp_xpath_007",
+      "name": "玲玲七(XPMF)",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/Xpath/007.json"
+    },
     {
-          "key": "csp_xpath_Gimy2",
-          "name": "GimyTV(XPF)",
-          "type": 3,
-          "api": "csp_XPathMacFilter",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/Gimy2.json"
-     }, 
+      "key": "csp_xpath_348z",
+      "name": "348电影(XPF)",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/348z.json"
+    },
+    {
+      "key": "csp_xpath_meiju56",
+      "name": "美剧网(XPF)",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/meiju562.json"
+    },
+    {
+      "key": "csp_xpath_Gimy",
+      "name": "GIMY影视(XPF)",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/Gimy.json"
+    },
+    {
+      "key": "csp_xpath_Gimy2",
+      "name": "GimyTV(XPF)",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/Gimy2.json"
+    },
     {
       "key": "csp_xpath_hhys",
       "name": "火火影视〔XPF〕",
@@ -182,46 +250,46 @@
       "filterable": 1,
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/喵乐.json"
     },
-   {
-          "key": "csp_xpath_6d",
-          "name": "六度TV(XPF)",
-          "type": 3,
-          "api": "csp_XPathFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/6d.json"
-     },
-     {
-          "key": "csp_xpath_dandanzan10",
-          "name": "蛋蛋赞(电影)(XPF)",
-          "type": 3,
-          "api": "csp_XPathFilter",
-          "searchable": 0,
-          "quickSearch": 0,
-          "filterable": 1,
-          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dandanzan10.json"
-     }, 
-     {
-          "key": "csp_xpath_4kpianku",
-          "name": "4k片库网(XPF)",
-          "type": 3,
-          "api": "csp_XPathMacFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/4kpianku.json"
-     }, 
-     {
-          "key": "csp_xpath_xiangdao",
-          "name": "农民影视(XPF)",
-          "type": 3,
-          "api": "csp_XPathMacFilter",
-          "searchable": 1,
-          "quickSearch": 1,
-          "filterable": 1,
-          "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/xiangdao.json"
-     },
+    {
+      "key": "csp_xpath_6d",
+      "name": "六度TV(XPF)",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/6d.json"
+    },
+    {
+      "key": "csp_xpath_dandanzan10",
+      "name": "蛋蛋赞(电影)(XPF)",
+      "type": 3,
+      "api": "csp_XPathFilter",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dandanzan10.json"
+    },
+    {
+      "key": "csp_xpath_4kpianku",
+      "name": "4k片库网(XPF)",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/4kpianku.json"
+    },
+    {
+      "key": "csp_xpath_xiangdao",
+      "name": "农民影视(XPF)",
+      "type": 3,
+      "api": "csp_XPathMacFilter",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/xiangdao.json"
+    },
     {
       "key": "csp_xpath_naifeiorg",
       "name": "奈飞中文〔XPF〕",
@@ -233,14 +301,14 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/naifeiorg.json"
     },
     {
-      "key": "csp_桔子TV",
-      "name": "桔子TV〔XPF〕",
+      "key": "csp_电影牛",
+      "name": "电影牛〔XPF〕",
       "type": 3,
       "api": "csp_XPathMacFilter",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/桔子TV.json"
+      "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/dyn.json"
     },
     {
       "key": "csp_appys_美剧虫",
@@ -273,6 +341,16 @@
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/kdys.json"
     },
     {
+       "key": "瓜皮",
+       "name": "瓜皮(XB)",
+       "type":3,
+       "api":"csp_XBiubiu",
+       "searchable":1,
+       "quickSearch":1,
+       "filterable":0,
+       "ext":"https://kvymin.github.io/CatVod/XBiubiu/瓜皮TV.json"
+    },
+    {
       "key": "csp_biubiu_555电影",
       "name": "555电影〔XB〕",
       "type": 3,
@@ -283,14 +361,14 @@
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/555电影.json"
     },
     {
-      "key": "csp_biubiu_橘子tv",
-      "name": "橘子tv〔XB〕",
+      "key": "csp_biubiu_饭团影视",
+      "name": "饭团影视〔XB〕",
       "type": 3,
       "api": "csp_XBiubiu",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://kvymin.github.io/CatVod/XBiubiu/juzi.json"
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/fthd.json"
     },
     {
       "key": "csp_biubiu_宝仙HD",
@@ -323,6 +401,16 @@
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/voflix.json"
     },
     {
+      "key": "蓝光影院",
+      "name": "蓝光(XB)",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/lgyy.json"
+    },
+    {
       "key": "AB影院",
       "name": "AB影院〔XB〕",
       "type": 3,
@@ -340,7 +428,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://kvymin.github.io/CatVod/sub/Bili.json"
+      "ext": "https://kvymin.github.io/CatVod/sub/bilitvbox.json"
     },
     {
       "key": "csp_xml_木子看剧",
@@ -780,5 +868,6 @@
     "qiu.xixiqiu.com",
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
-  ]
+  ],
+  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;4df8a8eafa60db019d44d86b22f55edc"
 }

@@ -321,6 +321,16 @@
       "ext": "https://kvymin.github.io/CatVod/XPathMacFilter/meijuchong.json"
     },
     {
+      "key": "csp_biubiu_yekong",
+      "name": "🌃夜空高清",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://kvymin.github.io/CatVod/XBiubiu/yekong.json"
+    },
+    {
       "key": "csp_biubiu_dmxq",
       "name": "大米星球〔XB〕",
       "type": 3,

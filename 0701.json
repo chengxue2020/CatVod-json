@@ -29,6 +29,15 @@
       "filterable": 1
     },
     {
+      "key": "dr_大米星球",
+      "name": "大米星球",
+      "type": 1,
+      "api": "https://drpy.justmiss.repl.co/vod?rule=大米星球",
+      "searchable": 2,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
       "key": "360_spider",
       "name": "️360",
       "type": 3,
@@ -290,7 +299,7 @@
         {
           "name": "live",
           "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vemhhbmdob25nL1RWQk9YWlkvcmF3L2JyYW5jaC9tYWluL1RWL1RWLnR4dA=="
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vc25nZGhhL1R2Q29uZmlnL3Jhdy9jb21taXQvZGFiNWIwYjMwNDMwYjkwMDVkYzdhYWIzODMzN2ZlM2M3ZTZhMmUyMS90di90di50eHQ"
           ]
         }
       ]
